@@ -150,7 +150,6 @@
 
 
 
-
 @media (max-width:450px)
 {
  .Conatainer
@@ -162,7 +161,7 @@
   {
     width:200px;
     height: 40px;
-    font-size: 26px;
+    font-size: 25px;
     
   }
 
@@ -176,29 +175,41 @@
   {
     width: 200px;
     height: 300p;
+    padding: 30px;
   }
 
+  .weather-temp
+  {
+    font-size: 30px;
+  }
+
+  .weather-location
+  {
+
+    font-size: 25px;
+  }
   .data
   {
-    font-size: 25px;
+    font-size: 20px;
   }
   .sec-text
   {
-    font-size: 15px;
+    font-size: 13px;
   }
 
   .dropdown
   {
-    margin-left: 50px;
+    margin-left: 25px;
   }
 
   .dropdownrow
   {
-    font-size: 23px;
+    font-size: 22px;
   }
 
   .weather-data
   {
+    margin-top: 30%;
     gap: 10px;
 
   }

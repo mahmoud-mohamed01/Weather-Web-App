@@ -150,15 +150,34 @@
 
 
 
+
 @media (max-width:450px)
 {
+ .Conatainer
+  {
+        height: 100vh;
+  }
+
   .top-bar input
   {
-    width:250px;
-    height: 60px;
+    width:200px;
+    height: 40px;
     font-size: 26px;
     
   }
+
+  .search-icon
+  {
+    width: 40px;
+    height: 40px;
+  }
+
+  .weather-image img
+  {
+    width: 200px;
+    height: 300p;
+  }
+
   .data
   {
     font-size: 25px;
@@ -176,5 +195,11 @@
   .dropdownrow
   {
     font-size: 23px;
+  }
+
+  .weather-data
+  {
+    gap: 10px;
+
   }
 }
